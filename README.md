@@ -21,24 +21,24 @@ Selected 10 representative frames per file
 
 Applied data augmentation by adjusting brightness and contrast to improve generalization
 
-Model Training
+## Model Training
 After preprocessing:
 
 The CycleGAN model was fine-tuned using the prepared dataset
 
 Training continued until enhanced echo outputs showed significant noise reduction and visual clarity improvement
 
-Post-Processing
+## Post-Processing
 Once the model produced enhanced frames:
 
 Each set of frames was converted back into a video
 
 All videos were rendered at a fixed frame rate of 50 FPS for consistency
 
-Output
+## Output
 Enhanced echo frames (.png)
 
 Generated echo videos (.mp4) at 50 FPS
 
-Results
+## Results
 The fine-tuned model effectively reduced noise while preserving key diagnostic features in the echo images, leading to clearer and more useful visualizations.
