@@ -5,10 +5,11 @@ This project fine-tunes the CycleGAN model on local echocardiography (echo) imag
 Setup
 First, clone the official CycleGAN repository:
 
-```bash
+bash
+Copy
+Edit
 git clone https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix.git
 cd pytorch-CycleGAN-and-pix2pix
-```
 Install the required dependencies (e.g., PyTorch, torchvision).
 
 Data Preprocessing
@@ -40,24 +41,3 @@ Generated echo videos (.mp4) at 50 FPS
 Results
 The fine-tuned model effectively reduced noise while preserving key diagnostic features in the echo images, leading to clearer and more useful visualizations.
 
-Training continued until enhanced echo outputs showed significant noise reduction and improved visual clarity.
-
-
-Post-Processing:
-
-Once the model produced enhanced frames:
-
-Each set of frames was converted back to a video.
-
-Final videos were rendered at 50 FPS for consistency.
-
-
-Output:
-
-Enhanced echo frames (.png)
-
-Generated echo videos (.mp4) at 50 FPS
-
-Results:
-
-The model demonstrated strong denoising capabilities while retaining key diagnostic structures in the echo images, supporting improved visualization for clinical or research purposes.
