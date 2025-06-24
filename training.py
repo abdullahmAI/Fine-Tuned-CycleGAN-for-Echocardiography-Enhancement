@@ -1,0 +1,14 @@
+!python train.py --dataroot /home/deep/Desktop/Abdullah/EF/dataset/sample \
+                 --checkpoints_dir /home/deep/Abdullah/CycleGAN_PyTorch/pytorch-CycleGAN-and-pix2pix/pytorch-CycleGAN-and-pix2pix/checkpoints \
+                 --name my_cyclegan_experiment \
+                 --model cycle_gan \
+                 --netG unet_256 \
+                 --n_epochs 50 \
+                 --n_epochs_decay 0 \
+                 --batch_size 4 \
+                 --max_dataset_size 10070 \
+                 --serial_batches \
+                 --num_threads 8 \
+                 --gpu_ids 0 \
+                 --continue_train \
+                 --epoch_count 45
